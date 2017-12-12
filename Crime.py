@@ -26,3 +26,16 @@ elif sim == 5:
     print('Culpado')
 else:
     print('Inocente')
+
+# Outro jeito de fazer.
+
+#if sim == 2:
+#    print('Suspeito')
+#else:
+#    if sim > 2 and sim < 5:
+#        print('Cumplice')
+#    else:
+#        if sim == 5:
+#            print('Culpado')
+#        else:
+#            print('Inocente')
