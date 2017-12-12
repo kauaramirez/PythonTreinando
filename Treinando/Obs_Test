@@ -1,0 +1,13 @@
+# Fazendo um ambiente de testes.
+# O arquio e a função de teste, tem que ter test_
+# sempre tem que ter "assert".
+# depois de "assert" vem a função que você está chamando ex: dormir.
+# depois do "assert dormir" vem os parametros a ser testados ex: (False, False).
+# depois dos parametros " assert dormir (False, False)" vem a comparação. ( False, False) == True?
+# Ficando completo assim:
+
+#def dormir(dia_semana, feriado):
+#  return feriado == True or dia_semana !=True
+
+#def test_ex01():
+#    assert dormir(False, False) == True
