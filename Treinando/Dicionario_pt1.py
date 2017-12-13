@@ -47,3 +47,7 @@ print(existe)
 # keys = Pegar todas as chaves do dicionario solicitado.
 chaves = alunos.keys()
 print(chaves)
+
+# values = Pegar todos os valores de um dicionario solicitado.
+valores = alunos.values()
+print(valores)
