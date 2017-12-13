@@ -55,3 +55,8 @@ print(valores)
 # items = Retorna uma lista(Dicionario) em formato de tupla.
 items = alunos.items()
 print(items)
+
+# Percorrendo uma tupla em python.
+for chave, valor in alunos.items():
+    print(chave)
+    print(valor)
