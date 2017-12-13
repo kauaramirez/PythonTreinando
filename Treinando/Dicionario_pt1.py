@@ -51,3 +51,7 @@ print(chaves)
 # values = Pegar todos os valores de um dicionario solicitado.
 valores = alunos.values()
 print(valores)
+
+# items = Retorna uma lista(Dicionario) em formato de tupla.
+items = alunos.items()
+print(items)
