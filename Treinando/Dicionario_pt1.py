@@ -60,3 +60,12 @@ print(items)
 for chave, valor in alunos.items():
     print(chave)
     print(valor)
+
+# get = Ele busca um item na agenda, caso não existe ele já trata o erro
+# conforme função a baixo " Não Existe"
+item = alunos.get("4444", "Não Existe")
+print(item)
+
+# clear = Limpar dicionario.
+alunos.clear()
+print(alunos)
