@@ -26,3 +26,24 @@ print(alunos["333333"], aluno["sexo"])
 print(alunos)
 print(aluno)
 print(agenda)
+
+#Para descobrir o tamanho do dicionario é só.
+tamAluno = len(aluno)
+tamAlunos = len(alunos)
+tamAgenda = len(agenda)
+
+print(tamAluno, tamAlunos, tamAgenda)
+
+#Removendo um contato da agenda.
+del agenda['Igor']
+print(agenda)
+
+#in = Verificar se possui algum item no Dicionario - No caso o Jorge.
+existe = "Jorge" in agenda
+print(existe)
+existe = 'Igor' in agenda
+print(existe)
+
+# keys = Pegar todas as chaves do dicionario solicitado.
+chaves = alunos.keys()
+print(chaves)
